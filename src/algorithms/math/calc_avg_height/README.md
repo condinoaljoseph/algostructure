@@ -9,7 +9,7 @@ function Person(h, w) {
 
 Given an object data, return the calculated average height. If there are no persons in the data object, return `null`.
 
-For example, the following call shoud return (174+190)/2=182:
+For example, the following call should return (174+190)/2=182:
 
 ```js
 calcAvgHeight({
