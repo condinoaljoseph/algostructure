@@ -1,0 +1,19 @@
+{
+	"name": "algostructure",
+	"version": "1.0.0",
+	"description": "My day to day practice for solving weird geeks problem cause I believe stress a day makes a programmer bald and bold.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com-personal:condinoaljoseph/algostructure.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^26.6.3"
+	}
+}
