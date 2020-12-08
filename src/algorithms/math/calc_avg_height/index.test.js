@@ -10,12 +10,10 @@ const people = {
 	Jason: new Person(190, 103)
 };
 
-const emptyPeople = {};
-
 test("calculates people object height to be 182", () => {
 	expect(calcAvgHeight(people)).toBe(182);
 });
 
-test("calculates people object height to be null", () => {
-	expect(calcAvgHeight(emptyPeople)).toBe(null);
+test("empty people must be null", () => {
+	expect(calcAvgHeight({})).toBe(null);
 });
