@@ -9,7 +9,7 @@ function calcAvgHeight(data) {
 		aveHeight += data[person].height;
 	});
 
-	return aveHeight / 2;
+	return aveHeight / people.length;
 }
 
 module.exports = calcAvgHeight;
