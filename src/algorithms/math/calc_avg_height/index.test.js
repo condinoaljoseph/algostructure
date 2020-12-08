@@ -1,4 +1,4 @@
-const calcAvgHeight = require("./index");
+const calcAvgHeight = require("./index.js");
 
 function Person(h, w) {
 	this.height = h;
